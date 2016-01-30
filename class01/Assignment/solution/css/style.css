@@ -1,0 +1,126 @@
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 30px;
+  border-bottom: 5px solid #222222;
+  border-top: 5px solid #222222;
+  padding: 50px;
+  background: #F6F6F6;
+
+}
+
+.commonstyles a {
+  font-weight: bold;
+  color: #05080C;
+}
+
+.commonstyles small {
+  color: #05080C;
+}
+
+.commonstyles strong {
+  color: #030609;
+  font-style: italic;
+}
+
+.commonstyles h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  color: #030609;
+  margin-top: 0;
+}
+
+.commonstyles h2 {
+  color: #030609;
+}
+
+.commonstyles h3 {
+  font-size: 18px;
+  color: #030609;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 42px;
+}
+
+.commonstyles h4 {
+  font-weight: bold;
+  font-size:10x;
+  margin-bottom: 0;
+  color: #05080C;
+}
+
+.commonstyles p {
+  font-family: Georgia, serif;
+  margin-top: 0;
+  margin-bottom: 27px;
+  color: #05080C;
+}
+
+.commonstyles ul {
+  list-style: square;
+}
+
+.commonstyles ul p {
+  color: #05080C;
+}
+
+.commonstyles li {
+  color: #05080C;
+}
+
+.commonstyles hr {
+  border: none;
+  border-top: 1px solid #222222;
+  margin: 30px 0;
+}
+
+.commonstyles img {
+  /*float: right;*/
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #222222;
+  padding: 5px;
+  text-align: center
+}
+
+.commonstyles img[alt] {
+  float: right;
+}
+
+.toc {
+  color: #222222;
+  text-align: left;
+  max-width: 300px;
+  float:right;
+  margin: 0 0 20px 20px;
+}
+
+.toc .toclevel-1 {
+  font-size: 14px;
+}
+
+.toc .toclevel-1 > a {
+  font-weight:bold;
+  color: #3344aa;
+}
+
+.toc .toclevel-2 {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.toc .toclevel-2 > a {
+  color: #666666;
+}
+
+.datatable td {
+  padding: 8px 14px;
+}
+
+.datatable td:first-child{
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+}

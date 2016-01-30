@@ -1,0 +1,95 @@
+body {
+
+}
+
+.commonstyles a {
+
+}
+
+.commonstyles small {
+}
+
+.commonstyles strong {
+
+}
+
+.commonstyles h1 {
+
+}
+
+.commonstyles h2 {
+}
+
+.commonstyles h3 {
+  margin-top: 42px;
+}
+
+.commonstyles h4 {
+  margin-bottom: 0;
+}
+
+.commonstyles p {
+  margin-top: 0;
+  margin-bottom: 27px;
+}
+
+.commonstyles ul {
+  list-style: square;
+}
+
+.commonstyles ul p {
+
+}
+
+.commonstyles li {
+
+}
+
+.commonstyles hr {
+  border: none;
+  border-top: 1px solid #222222;
+  margin: 30px 0;
+}
+
+.commonstyles img {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #222222;
+  padding: 5px;
+  text-align: center
+}
+
+.commonstyles img[alt] {
+  float: right;
+}
+
+.toc {
+
+  max-width: 300px;
+  float:right;
+  margin: 0 0 20px 20px;
+}
+
+.toc .toclevel-1 {
+
+}
+
+.toc .toclevel-1 > a {
+
+}
+
+.toc .toclevel-2 {
+
+}
+
+.toc .toclevel-2 > a {
+
+}
+
+.datatable td {
+  padding: 8px 14px;
+}
+
+.datatable td:first-child{
+  text-transform: uppercase;
+}
