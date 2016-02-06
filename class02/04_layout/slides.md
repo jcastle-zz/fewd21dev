@@ -103,3 +103,34 @@ Image from Chris Coyier's CSS-Tricks
 
 ![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
 ##Layout Challenge
+
+
+---
+
+
+![](starter_code/layout_challenge/png/layouts_Page_1.png)
+
+
+---
+
+![](starter_code/layout_challenge/png/layouts_Page_2.png)
+
+
+---
+
+
+![](starter_code/layout_challenge/png/layouts_Page_3.png)
+
+
+
+---
+
+
+![](starter_code/layout_challenge/png/layouts_Page_4.png)
+
+
+
+---
+
+
+![](starter_code/layout_challenge/png/layouts_Page_5.png)

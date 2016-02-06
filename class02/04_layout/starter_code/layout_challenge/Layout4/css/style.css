@@ -1,0 +1,75 @@
+.pageHeader {
+    width:100%;
+    float:left;
+    background: grey;
+}
+
+.mainLeft {
+    width:50%;
+    float:left;
+    background: grey;
+}
+
+.mainRight {
+    width:50%;
+    float:left;
+    background: grey;
+}
+
+.subLeft {
+    width:33%;
+    float:left;
+    background: grey;
+}
+
+.subCenter {
+    width:33%;
+    float:left;
+    background: grey;
+}
+
+.subRight {
+    width:33%;
+    float:left;
+    background: grey;
+}
+
+.pageFooter {
+    width:100%;
+    float:left;
+    background: grey;
+}
+
+/* style for height, borders, padding, etc. */
+
+.header {
+    height: 50px;
+    padding: 20px;
+    border: 1px solid black;
+    background: rgba(255,255,255,0.7);
+    margin: 10px;
+}
+
+.main {
+    height: 400px;
+    padding: 20px;
+    border: 1px solid black;
+    background: rgba(255,255,255,0.7);
+    margin: 10px;
+}
+
+.sub {
+    height: 200px;
+    padding: 20px;
+    border: 1px solid black;
+    background: rgba(255,255,255,0.7);
+    margin: 10px;
+}
+
+.footer {
+    height: 50px;
+    padding: 20px;
+    border: 1px solid black;
+    background: rgba(255,255,255,0.7);
+    margin: 10px;
+}

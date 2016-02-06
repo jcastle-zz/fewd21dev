@@ -1,0 +1,45 @@
+.pageHeader {
+    width:100%;
+    float:left;
+    background: grey;
+}
+
+.main {
+    width:60%;
+    float:left;
+    background: grey;
+}
+
+.sideBarLeft {
+    width:20%;
+    float:left;
+    background: grey;
+}
+
+.sideBarRight {
+    width:20%;
+    float:left;
+    background: grey;
+}
+
+.pageFooter {
+    width:100%;
+    float:left;
+    background: grey;
+}
+
+.placeholder {
+    height: 200px;
+    padding: 20px;
+    border: 1px solid black;
+    background: rgba(255,255,255,0.7);
+    margin: 10px;
+}
+
+.placeholder2 {
+    height: 400px;
+    padding: 20px;
+    border: 1px solid black;
+    background: rgba(255,255,255,0.7);
+    margin: 10px;
+}

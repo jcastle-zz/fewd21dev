@@ -18,7 +18,7 @@ Project URL: ____________________________________
 | Technical Requirements                                                                                                        | Does Not Meet Expectations (0) | Meets Expectations (1) | Exceeds Expectations (2) |
 | Use HTML5 structural elements (nav, header, footer)                                                                           |                                |                        |                          |
 | Use a CSS Reset file in addition to your style.css file to style the page                                                     |                                |                        |                          |
-| Use IDs and Classes to to select and style elements on the page                                                               |                                |                        |                          |
+| Use Classes to to select and style elements on the page                                                               |                                |                        |                          |
 | Style your text with the Google Fonts provided by your style guide                                                            |                                |                        |                          |
 | Follow naming conventions, maintain consistency across .html and .css files and use best practices for naming IDs and Classes |                                |                        |                          |
 | Indent nested elements to increase your code's readability                                                                    |                                |                        |                          |

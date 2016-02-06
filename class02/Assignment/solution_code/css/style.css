@@ -1,15 +1,3 @@
-/*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
-*/
-
-
-/******************************************
-/* SETUP
-/*******************************************/
-
 /* Box Model Hack */
 * {
   -moz-box-sizing: border-box; /* Firexfox */
@@ -27,24 +15,6 @@ Developer @GA in NYC
   height: 0;
 }
 
-.clear {
-  clear: both;
-}
-
-.alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-
-.alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
 body {
   color: #f0efef;
   font-size: 26px;
@@ -58,10 +28,6 @@ a {
 }
 
 
-/******************************************
-/* LAYOUT
-/*******************************************/
-
 /* Center the container */
 .container {
   width: 960px;
@@ -73,23 +39,23 @@ a {
   font-weight: 800;
 }
 
-header {
+.pageIntro {
   height: 700px;
   background: url(../images/header_bg.jpg) no-repeat top center #131e27;
   padding-top: 32px;
 }
 
-header .logo {
+.pageIntro .logo {
   color: #fff;
 }
-header h2 {
+.tagline {
   font-size: 48px;
   text-align: center;
   color: #fff;
   margin: 120px 0 90px;
   font-weight: 600;
 }
-.button {
+.btn {
   border-radius: 5px;
   font-weight: 800;
   padding: 12px 0;
@@ -99,37 +65,37 @@ header h2 {
   display: block;
   margin: 0 auto;
 }
-.yellow {
+.btn-cta {
   background: #f9e42e;
   color: #033048;
 }
-.blue {
+.btn-signup {
   background: #033048;
   color: #fff;
   font-size: 24px;
 }
-#benefits {
+.benefits {
   padding: 100px 0 80px;
 }
-h3 {
+.container h1 {
   color: #033048;
   font-size: 40px;
   font-weight: 600;
   margin-bottom: 40px;
 }
-#benefits p, #benefits ul {
+.benefits p, .benefits ul {
   width: 600px;
 }
-#benefits ul {
+.benefits ul {
   list-style: disc;
   margin: 30px 0 0 80px;
 }
-#testimonial {
+.testimonial {
   background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
   padding: 70px 0 70px;
   color: #fff;
 }
-blockquote {
+.testimonial blockquote {
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
@@ -137,40 +103,37 @@ blockquote {
   width: 580px;
   margin: 0 auto;
 }
-blockquote span {
+.testimonial blockquote .author {
   font-weight: 600;
   display: block;
   font-style: normal;
 }
-aside {
+.ctaBox {
   background: #f9e42e;
   padding: 30px;
   text-align: center
 }
-footer {
+.pageFooter {
   background: #121212;
   padding: 65px 0 45px;
   text-align: center;
 }
-footer .logo {
+.pageFooter .logo {
   color: #f9e42e;
   margin-bottom: 68px;
 }
-footer ul li {
+.pageFooter ul li {
   display: inline-block;
   list-style: none;
   margin: 0 26px 75px;
 }
-footer p {
+.pageFooter p {
   font-size: 18px;
   color: #fff;
   font-weight: 600;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
-
-
-
-
+.pageFooter a {
+  color: white;
+  font-size: 2em;
+}
