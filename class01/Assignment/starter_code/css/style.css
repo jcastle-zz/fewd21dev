@@ -31,6 +31,8 @@ body {
 .commonstyles p {
   margin-top: 0;
   margin-bottom: 27px;
+  font-family: Georgia;
+  color: #05080C;
 }
 
 .commonstyles ul {
@@ -64,26 +66,34 @@ body {
 }
 
 .toc {
-
   max-width: 300px;
   float:right;
   margin: 0 0 20px 20px;
+  background-color: #f2f2f2;
 }
 
 .toc .toclevel-1 {
-
+  list-style-type: none;
+  padding-bottom: 2px;
+  font-size: 14px;
 }
 
 .toc .toclevel-1 > a {
-
 }
 
 .toc .toclevel-2 {
-
+  list-style-type: none;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  color: #3344aa;
+  font-size: 13px;
 }
 
 .toc .toclevel-2 > a {
+}
 
+.datatable {
+  background-color: #f2f2f2; 
 }
 
 .datatable td {
@@ -92,4 +102,8 @@ body {
 
 .datatable td:first-child{
   text-transform: uppercase;
+}
+
+.citation_li {
+  list-style-type: none;
 }
