@@ -1,24 +1,35 @@
 
 body {
-
+  font-family: georgia, serif;
+  font-size: 16px;
+  background: white;
+  color: #05080C;
 }
 
 .commonstyles a {
-
+  font-weight: bold;
+  color: #05080C;
 }
 
 .commonstyles small {
+  color: #05080C;
 }
 
 .commonstyles strong {
-
+  color: #030609;
+  font-style: italic;
 }
 
 .commonstyles h1 {
-
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  color: #030609;
+  margin-top: 0;
 }
 
 .commonstyles h2 {
+  color: #030609;
 }
 
 .commonstyles h3 {
@@ -41,11 +52,11 @@ body {
 }
 
 .commonstyles ul p {
-
+  color: #05080C;
 }
 
 .commonstyles li {
-
+  color: #05080C;
 }
 
 .commonstyles hr {
@@ -80,6 +91,8 @@ body {
 }
 
 .toc .toclevel-1 > a {
+  font-weight:bold;
+  color: #3344aa;
 }
 
 .toc .toclevel-2 {
@@ -91,6 +104,7 @@ body {
 }
 
 .toc .toclevel-2 > a {
+  color: #3344aa;
 }
 
 .datatable {
