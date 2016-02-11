@@ -16,11 +16,149 @@
 }
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+  color: #f0efef;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
 }
+
+a {
+     text-decoration: none;
+}
+
+/* centered the logo */
+.container {
+     width: 960px;
+     margin: 0 auto;
+}
+
+.logo {
+     font-size: 24px;
+     font-weight: 800;
+}
+
+/* centered and padded the original picture */
+.pageIntro {
+     height: 700px;
+     background: url(../images/header_bg.jpg) no-repeat top center #131e27;
+     padding-top: 32px;
+}
+
+.pageIntro .logo {
+  color: #fff;
+}
+
+.tagline {
+     font-size: 24px;
+     text-align: center;
+     color: #fff;
+     margin: 120px 0 90px;
+     font-weight: 600;
+}
+
+.btn {
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 12px 0;
+  width: 280px;
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-cta {
+  background: #f9e42e;
+  color: #033048;
+}
+.btn-signup {
+  background: #033048;
+  color: #fff;
+  font-size: 12px;
+}
+
+.benefits {
+     padding: 100px 0 80px;
+     background: #f0efef #f9e42e #033048 #606161 #121212;
+}
+
+.container h1 {
+  color: #033048;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.benefits p, .benefits ul {
+  width: 400px;
+  font-size: 13px;
+}
+.benefits ul {
+  list-style: disc;
+  margin: 30px 0 0 80px;
+}
+
+.testimonial {
+  background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
+  padding: 70px 0 70px;
+  color: #fff;
+}
+.testimonial blockquote {
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  width: 580px;
+  margin: 0 auto;
+}
+
+.testimonial blockquote .author {
+  font-weight: 600;
+  display: block;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.ctaBox {
+  background: #f9e42e;
+  padding: 30px;
+  text-align: center
+}
+
+.pageFooter {
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
+}
+
+.pageFooter .logo {
+  color: #f9e42e;
+  margin-bottom: 68px;
+}
+
+.pageFooter ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
+}
+
+.pageFooter p {
+  font-size: 9px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.pageFooter a {
+  color: white;
+  font-size: 2em;
+}
+
+.pageFooter .logo {
+     font-size: 24px;
+     font-weight: 800;
+}
+
+
 
