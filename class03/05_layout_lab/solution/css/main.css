@@ -1,0 +1,159 @@
+body {
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	background: #FFF;
+	color: #444;
+}
+
+a {
+	color: #D00;
+	text-decoration: none;
+	-webkit-transition: all 300ms;
+}
+a:hover {
+	color: #A00;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.main {
+	float: left;
+	width: 66.66667%;
+}
+
+.sidebar {
+	float: right;
+	width: 29%;
+	margin-top: 6em;
+	color: #888;
+}
+
+.logo {
+	display: inline;
+	margin-right: .5em;
+	font-size: 3em;
+	font-weight: normal;
+}
+
+.tagline {
+	font-size: 1.5em;
+	font-weight: normal;
+	color: #888;
+	margin-bottom: .5em;
+	padding: 0;
+	display: inline;
+}
+
+.title {
+	font-size: 2em;
+	font-weight: normal;
+	color: black;
+	margin: 0;
+	padding: 0;
+}
+
+.title a {
+	color: inherit;
+}
+.title a:hover {
+	color: #D00;
+}
+
+.date {
+	font-size: 2em;
+	font-weight: normal;
+	color: #CCC;
+	margin: 0;
+	padding: 0;
+}
+
+.more-link {
+	font-weight: bold;
+	text-align: right;
+}
+
+img {
+	display: block;
+	margin: 10px 0;
+	max-width: 100%;
+}
+
+footer {
+	color: #BBB;
+	clear: both;
+}
+
+.menu-main,
+.menu-footer {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu-main li,
+.menu-footer li {
+	display: inline-block;
+}
+
+.menu-main li {
+	float: left;
+	width: 16.66667%;
+	margin: 0;
+	padding: 0;
+}
+.menu-main a {
+	display: block;
+	font-size: 1.25em;
+	color: white;
+	background: black;
+	margin-right: 1px;
+	padding: 15px 0;
+	text-align: center;
+}
+.menu-main a:hover {
+	color: white;
+	background: #900;
+}
+
+.menu-footer li::after {
+	content: ' | ';
+}
+
+.menu-footer li:last-child::after {
+	content: '';
+}
+
+.teaser {
+	border-bottom: 1px solid #DDD;
+	margin: 3em 0;
+	padding-bottom: 1.5em;
+}
+.teaser p:first-letter {
+	float: left;
+	font-size: 6em;
+	line-height: 1;
+	color: #DDD;
+	margin: -.1em .1em 0 -.1em;
+}
+
+.module {
+	border-bottom: 1px solid #DDD;
+	padding: 20px 0;
+}
+.module:last-of-type {
+	border: none;
+}
+
+.ad img {
+	margin: auto;
+}
