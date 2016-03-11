@@ -1,0 +1,75 @@
+Class - 1/30
+
+Administration
+- Load on GitHub by Thurs at 9pm
+- Final projects can be anything - something to profit from, show skill set 
+- Extra work - code challenge from instructors
+
+*30% off workshops and bootcamps - BACK2SCHOOL-DC
+
+Instructors
+- Nick Grace - gov't contractor, developing since 1996
+- Tor Johnson - Booze Allen Hamilton, designer and developer
+- Chris Hodges - TA and front-end designer
+- Nayana Davis - TA and front-end developer
+
+Bootstrap
+- Not accessible [read 508 compliant]
+- Useful for internal websites
+- Makes you follow a template - makes every site look like a Bootstrap site
+- Makes users download all JS files, could be a burden on data and load times
+
+Sass
+- way to do JS stuff in CSS
+
+Git 
+- look at installing Git on Mac
+
+Web Browsers
+- IE 8 development - test website against 
+- Safari, Chrome, Firefox
+
+Reset and Normalize
+- for taking html pages back to white canvas or just text, no styles
+
+*Use MDN as a developer resource
+*Markup validation service - W3C
+*Use ID’s for on page reference and in JS; don’t use them in CSS if you have a choice
+*Use class in CSS
+*BEM Design Methodology = block, element, modifier
+
+
+Class - 2/6
+
+Design 
+- NEAT and Bourbon - library of templates and styles
+- Gulp - JS automator - processing before CSS
+
+Webpage building tools
+Validate CSS - Linting (csslint.net) and CSSComb (plugin for text editors - Atom, Sublime)
+Browser check - caniuse.com
+
+Box Model
+- CSS Border Box - Paul Irish
+- Look at slides for boxes
+
+Inline vs Block
+- code{} = inline elements
+- inline{} = display to create a tabbed menu
+
+Reset and Normalize
+- Normalize.css - add to HTML as css before style css to assist with making cross browser capatable
+
+Tags
+- Span = apply style to small piece of text
+- DIV = block level version of a span
+- Class and ID = class should be a grouping and start with consonant; IDs are unique, not good for CSS, more for anchors and JS (.classname vs #idname)
+- New HTML5 elements - header, footer, aside
+- Float = moving elements around the page
+
+*Remove tags with Normalize or Rest (reset takes out everything, normalize leaves some tags)
+*Look at VI for note taking
+*Setting up all HTML and CSS pages
+	- Use box CSS tags
+	- Use Normalize CSS
+*Look at Font Awesome

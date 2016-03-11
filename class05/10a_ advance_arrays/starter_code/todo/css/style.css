@@ -1,0 +1,77 @@
+* {
+  box-sizing:border-box;
+}
+
+body {
+  background:#eee;
+  margin:20px;
+  text-align:center;
+}
+
+h1 {
+  margin:0 0 20px;
+}
+
+#app {
+  display:inline-block;
+  width:500px;
+  margin:auto;
+  text-align:center;
+  padding:20px;
+  background:white;
+  border:1px solid #ccc;
+  border-radius:5px;
+}
+
+button {
+  border-radius:3px;
+  background:white;
+  border:1px solid #ccc;
+  font-size:15px;
+  padding:2px 10px;
+}
+
+#count {
+  font-weight:bold;
+}
+
+#todos {
+  list-style-type:none;
+  padding:0;
+
+}
+
+#todos li {
+  text-align:left;
+
+}
+
+.todo-content {
+ margin-left:25px;
+  display:inline-block;
+}
+#delete {
+color:red;
+margin-left:10px;
+}
+
+#todos .todo-check{
+  margin-right:20px;
+}
+
+#todos #todo-check:checked + .todo-content{
+  text-decoration:line-through;
+}
+
+.listBox {
+width:80%;
+display:inline-block;
+}
+
+/*Hide checkbox*/
+
+/*input[type="checkbox"]
+{
+    display:none;
+}
+

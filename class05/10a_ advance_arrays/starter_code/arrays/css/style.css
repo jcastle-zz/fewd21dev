@@ -1,0 +1,39 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+  overflow:hidden;
+}
+
+.gaHeader {
+  position:relative;
+  background-color: rgb(10,35,15);
+  color: white;
+  border-bottom: 4px solid rgb(40,85,45);
+  overflow: hidden;
+}
+
+.gaHeaderInner {
+  max-width:960px;
+  padding: 10px 15px 5px 15px;
+  margin: 0 auto;
+}
+
+.gaHeaderInner .miniBrand {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.gaHeaderInner h1 {
+  margin:0;
+  font-size: 36px;
+}
+
+.arrayList dt {
+  font-weight: bold;
+}
