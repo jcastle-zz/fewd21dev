@@ -73,3 +73,11 @@ Tags
 	- Use box CSS tags
 	- Use Normalize CSS
 *Look at Font Awesome
+
+Class 7 - 3/12/16
+- Responsive design
+	- use ems for elastic layout for width, padding, and margin throughout
+	- fluid layouts use percentages
+	- adaptive layout - fixed width (bootstrap)
+- Pattern Lab - for building templates
+

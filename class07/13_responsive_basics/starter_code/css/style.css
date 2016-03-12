@@ -1,0 +1,196 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* Border for all elements */
+header,
+nav a,
+header span,
+.empty-section,
+.box .inner,
+footer {
+    border: 2px solid #333;
+}
+
+header, section, footer {
+    margin-bottom: 20px;
+}
+
+/* Header */
+nav {
+    float: left;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    padding: 20px 75px;
+    display: block;
+    float: left;
+    margin-right: 2px;
+}
+
+header span {
+    font-size: 3em;
+    color: green;
+    display: block;
+    float: right;
+    display: none;
+}
+
+
+
+header span a {
+    text-decoration: none;
+}
+
+/* Section */
+
+.empty-section {
+    padding: 100px 0;
+}
+
+/* Boxes */
+section, footer {
+    padding: 20px 0;
+}
+.row {
+    margin: 0 -15px;
+}
+.box {
+    float: left;
+    width: 25%;
+    padding: 15px;    
+}
+.box .inner {
+    padding: 75px;
+}
+.box:last-child {
+    margin-right: 0;
+}
+
+/* Footer */
+footer .box {
+    width: 33.333%;
+}
+footer .box .inner {
+    padding: 50px 100px;
+}
+
+@media screen and (max-width: 780px){
+    footer .box {
+        width: 100%;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    header span {
+        display: block;
+    }
+    header nav {
+        display: none;
+        float: right;
+    }
+    nav ul li {
+        display: block;
+    }
+    nav ul li a {
+        float: none;
+        margin-right: 0;
+    }
+
+}
+
+@media screen and (max-width: 670px){
+    .box {
+        width: 50%;
+    }
+}
+
+@media screen and (max-height: 150px){
+    .empty-section {
+        padding: 50px 0;
+    }
+}
+
+
+
+/* Cool active states of the body */
+body.active header nav {
+    display: block;
+}
+
+body.active {
+    background: purple;
+}
+
+body.active .box {
+-webkit-animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+
+/* Animations */
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
